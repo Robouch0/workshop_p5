@@ -71,3 +71,15 @@ In order to do this your gonna have to learn how to check if a point is in a cir
 
 ![Recording 2024-04-28 at 00 06 22](https://github.com/Robouch0/workshop_p5/assets/114905866/1e0073a4-042b-4e9e-827c-c7557bbe3023)
 
+
+# Part 2 - Data structure - Keep it up !
+
+
+# Exercice 00 - Arrays 
+
+Ok now that the basics are set, let's move on other important things like structure our data, first with arrays !
+
+Arrays in JS are very powerful tools. They are what we call "objects" and they come with "methods" link to them, those are functions used to do things with the array.
+
+
+
