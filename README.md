@@ -69,6 +69,8 @@ In order to do this your gonna have to learn how to check if a point is in a cir
   > mousePressed(), mouseReleased(), mouseDragged();
 </details>
 
+Example :
+
 ![Recording 2024-04-28 at 00 06 22](https://github.com/Robouch0/workshop_p5/assets/114905866/1e0073a4-042b-4e9e-827c-c7557bbe3023)
 
 
@@ -81,5 +83,14 @@ Ok now that the basics are set, let's move on other important things like struct
 
 Arrays in JS are very powerful tools. They are what we call "objects" and they come with "methods" link to them, those are functions used to do things with the array.
 
+Don't worry if you don't understand everything right away, try searching on the internet what can be done with JS array
 
+The exercice is simple, display a grid made of squares, and when you click on them they change from blue to green (or any color that you'd like :)
+
+Example : 
+
+![Recording 2024-04-29 at 00 07 03](https://github.com/Robouch0/workshop_p5/assets/114905866/e45f33ac-cdbc-47d2-8b99-0f3d5631054c)
+
+
+# Exercice 01 - Custom Objects
 
