@@ -94,3 +94,16 @@ Example :
 
 # Exercice 01 - Custom Objects
 
+As you've seen in the exercice before, array are really useful object. 
+
+But wouldn't it be nice to create your own custom objects ?
+
+For this exercice you will have to make multiple ellipse grows and explode if they reach a certain size.
+
+Search on the internet whats a class in Javascript and what's a constructor, then with those informations create your own Balloon class and handle multiple of them at the same time !
+
+They could have different size, different position, different colors etc...
+
+Example :
+
+![Recording 2024-05-01 at 22 21 19](https://github.com/Robouch0/workshop_p5/assets/114905866/4c4ed056-e1f1-4102-aad3-388bde256480)
