@@ -2,25 +2,29 @@
 
 # Introduction
 Hi, welcome to this workshop ! 
-The main topics of today will be learning more about JavaScript and precisely about a library named [p5 JS].
+
+Today, we'll be diving into JavaScript basics and exploring a library called [p5.js](https://p5js.org/). 
 
 This lib contains a collection of pre-written functions meant for creative coding.
 It can simplify the process of creating simple interactive visuals quickly in a web browser.
 
 Let's start ! 
-First go to https://editor.p5js.org/
 
-Documentation p5 lib : https://p5js.org/reference/
+Documentation for the p5.js library: [p5.js Reference](https://p5js.org/reference/)
+
 
 # Part 1 - The basics
 
 
 # Exercice 00 - P5.js Editor
 
-Ok you are now on a basic code editor, try to learn your way around it ! 
+Ok you are now in a basic code editor, take some time to familiarize yourself with it.
+
 You should see two functions already written : 
 ``` setup() ``` and ``` draw() ```
-Search in the documentation what their purpose are, and then try to change the background color and add a circle shape with a different color on it !
+
+Search in the documentation to learn about their purposes,
+and then try changing the background color and adding a circle shape with a different color !
 
 ![image](https://github.com/Robouch0/workshop_p5/assets/114905866/abcdb43e-126a-4c78-9ef5-4c738ac190f8)
 
@@ -42,17 +46,17 @@ Oh no, the keyword before nbr has been corrupted !!
 
 I guess you need to search on the internet the different ways of writing a variable in JS :p
 
-When you are done searching, try to create a variable to gradually change things on your image, for example the color of the circle, or his position !
+When you are done searching, try to create a variable to gradually change things on your image, such as the color of the circle, or his position !
 
 # Exercice 02 - Mouse Events 
 
 Ok it's cool we have circles, colors and all, but none of this is interactive, it's time to change that !
 
-The exercice is simple, i want you to code a button and a slider, to add interaction with the background.
+The exercice is simple : I want you to code a button and a slider, to add interaction with the background.
 
 For example your button could turn off the light and put all the display color to black, while your slider could change the background color progressivly.
 
-In order to do this your gonna have to learn how to check if a point is in a circle, how to get datas about your mouse position and if it's clicked, etcc...
+In order to do this your gonna have to learn how to check if a point is in a circle, how to get datas about your mouse position and if it's clicked, etc.
 
 <details>
   <summary> HINT 💡 </summary>
@@ -79,7 +83,7 @@ Example :
 
 # Exercice 00 - Arrays 
 
-Ok now that the basics are set, let's move on other important things like structure our data, first with arrays !
+Now that the basics are set, let's move on to other important things like structuring our data, starting with arrays!
 
 Arrays in JS are very powerful tools. They are what we call "objects" and they come with "methods" link to them, those are functions used to do things with the array.
 
@@ -94,16 +98,43 @@ Example :
 
 # Exercice 01 - Custom Objects
 
-As you've seen in the exercice before, array are really useful object. 
+As you've seen in the exercise before, arrays are really useful objects.
 
-But wouldn't it be nice to create your own custom objects ?
+But wouldn't it be nice to create your own custom objects?
 
-For this exercice you will have to make multiple ellipse grows and explode if they reach a certain size.
+For this exercise, you will have to make multiple ellipses grow and disappear if they reach a certain size.
 
-Search on the internet whats a class in Javascript and what's a constructor, then with those informations create your own Balloon class and handle multiple of them at the same time !
+Search on the internet what a class in JavaScript is and what a constructor is. Then, with this information, create your own Balloon class and handle multiple balloons at the same time! 
 
-They could have different size, different position, different colors etc...
+They could have different sizes, positions, colors, etc.
 
 Example :
 
 ![Recording 2024-05-01 at 22 21 19](https://github.com/Robouch0/workshop_p5/assets/114905866/4c4ed056-e1f1-4102-aad3-388bde256480)
+
+
+# Part 3 - Generative Art
+
+# Exercice 00 - Picasso ? No.
+
+We're nearing the end of this workshop, you will now have to create a little programm generating random painting ! 
+
+Ok ok calm down, when i say "painting", i mean a group of different shapes of different colors, you can choose how and where to display them, it's up to you !
+
+![image](https://github.com/Robouch0/workshop_p5/assets/114905866/35ae5286-c69f-4824-84ff-1ac65df2997e)
+
+
+You could learn about other forms of generative arts on the internet through tutorials, and also start to use the noise() function for a smoother randomness regarding your animations !!
+
+Using what you've learn on arrays, mouseEvents and custom objects you could also add some interactions : 
+
+![Recording 2024-05-04 at 01 31 29](https://github.com/Robouch0/workshop_p5/assets/114905866/3be17c1b-bb2a-4310-a9df-c76e0a2fa486)
+
+
+That's it !  This workshop is finished !
+
+If you wanna go further you could learn about how to handle 3D objects with p5 libs, for example cubes, using the box() and different rotate() functions !
+The possibilities are then only limited to your own imagination limits !!
+
+
+![Recording 2024-05-04 at 01 42 32](https://github.com/Robouch0/workshop_p5/assets/114905866/9cd989ec-8ce1-4ae6-ae36-2b710c34de06)
