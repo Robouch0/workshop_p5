@@ -31,8 +31,8 @@ and then try changing the background color and adding a circle shape with a diff
 
 # Exercice 01 - Variables in JS 
 
-Now we are gonna talk about variables in JavaScript ! Unlike his little brother TypeScript, JS does not need to precise a type before declaring a variable.
-Because the type of the variable can dynamicly change while the programm is running.
+Now we are gonna talk about variables in JavaScript ! Unlike its little brother TypeScript, JS does not need to precise a type before declaring a variable,
+the type of the variable can dynamicly change while the programm is running !
 
 In C you would write this : 
 
@@ -44,9 +44,9 @@ In JS you could write this :
 
 Oh no, the keyword before nbr has been corrupted !!
 
-I guess you need to search on the internet the different ways of writing a variable in JS :p
+I guess you need to search on the internet for different ways of writing a variable in JS :p
 
-When you are done searching, try to create a variable to gradually change things on your image, such as the color of the circle, or his position !
+When you are done searching, try to create a variable to gradually change things on your image, such as the color of the circle, or its position !
 
 # Exercice 02 - Mouse Events 
 
@@ -54,9 +54,9 @@ Ok it's cool we have circles, colors and all, but none of this is interactive, i
 
 The exercice is simple : I want you to code a button and a slider, to add interaction with the background.
 
-For example your button could turn off the light and put all the display color to black, while your slider could change the background color progressivly.
+For example your button could turn off the light and put the background color to black, while your slider could change it progressivly.
 
-In order to do this your gonna have to learn how to check if a point is in a circle, how to get datas about your mouse position and if it's clicked, etc.
+In order to do this your gonna have to learn how to check if a point is in a circle, how to get datas about your mouse position and wether or not it's clicked, etc.
 
 <details>
   <summary> HINT 💡 </summary>
@@ -85,11 +85,11 @@ Example :
 
 Now that the basics are set, let's move on to other important things like structuring our data, starting with arrays!
 
-Arrays in JS are very powerful tools. They are what we call "objects" and they come with "methods" link to them, those are functions used to do things with the array.
+Arrays in JS are very powerful tools. They are what we call "objects" and they come with "methods" linked to them, those are functions used to do things with the array.
 
 Don't worry if you don't understand everything right away, try searching on the internet what can be done with JS array
 
-The exercice is simple, display a grid made of squares, and when you click on them they change from blue to green (or any color that you'd like :)
+The exercice is simple, display a grid made of squares that changes from blue to green when clicked (or any color that you'd like :)
 
 Example : 
 
@@ -126,7 +126,7 @@ Ok ok calm down, when i say "painting", i mean a group of different shapes of di
 
 You could learn about other forms of generative arts on the internet through tutorials, and also start to use the noise() function for a smoother randomness regarding your animations !!
 
-Using what you've learn on arrays, mouseEvents and custom objects you could also add some interactions : 
+Using what you've learnt on arrays, mouseEvents and custom objects, you could also add some interactions : 
 
 ![Recording 2024-05-04 at 01 31 29](https://github.com/Robouch0/workshop_p5/assets/114905866/3be17c1b-bb2a-4310-a9df-c76e0a2fa486)
 
@@ -134,7 +134,7 @@ Using what you've learn on arrays, mouseEvents and custom objects you could also
 That's it !  This workshop is finished !
 
 If you wanna go further you could learn about how to handle 3D objects with p5 libs, for example cubes, using the box() and different rotate() functions !
-The possibilities are then only limited to your own imagination limits !!
+The possibilities are then only limited to your own imagination's limits !!
 
 
 ![Recording 2024-05-04 at 01 42 32](https://github.com/Robouch0/workshop_p5/assets/114905866/9cd989ec-8ce1-4ae6-ae36-2b710c34de06)
